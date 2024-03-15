@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	pading: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	height: 15vh;
+	width:100vw;
+	background: pink;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px, 65px;
+    position: relative;
+}
+.navbar ul{
+	position: relative;
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	
+}
+.navbar ul li{
+position: relative;
+list-style: none;
+	color:black;
+	
+}
+.navbar a{
+	 text-decoration: none;
+	color:#555;
+}
+
+.navbar img{
+	width: 100px;
+	height: 50px;
+	margin-top: 20px;
+}
+.cart img{
+	width: 25px;
+	height: 35px;
+	margin-top: 0px;
+	
+}
+
+.section-1{
+	
+	Display:flex;
+	Width:80vw;
+	
+	Height:150vh;
+										   
+	}
+	.box-4{
+		display: flex;
+		flex-direction: column;
+	
+		
+	
+	
+	}
+	.box-4 img {
+		display:flex;
+		padding: 60px;
+		height: 300px;
+		object-fit: cover;
+		margin-top: 5px;
+		
+	}
+	.box-4 p,h3{
+		text-align: left;
+		margin-left:90px ;
+		
+	}
+	.btn{
+		margin-left: 90px;
+		background-color:aqua;
+	}
+
+	.box-5{
+		display: flex;
+		flex-direction: column;
+	
+		
+	
+	
+	}
+	.box-5 img {
+		display:flex;
+		padding: 60px;
+		height: 300px;
+		object-fit: cover;
+		margin-top: 5px;
+		
+	}
+	.box-5 p,h3{
+		text-align: left;
+		margin-left:90px ;
+		
+	}
+	.btn{
+		margin-left: 90px;
+		background-color:aqua;
+	}
+
+	.box-6{
+		display: flex;
+		flex-direction: column;
+	
+		
+	
+	
+	}
+	.box-6 img {
+		display:flex;
+		padding: 70px;
+		height: 300px;
+		object-fit: cover;
+		margin-top: 5px;
+		
+	}
+	.box-6 p,h3{
+		text-align: left;
+		
+		
+	}
+	.btn{
+		margin-left: 90px;
+		background-color:aqua;
+	}
+
+	.box-7{
+		display: flex;
+		flex-direction: column;
+	
+		
+	
+	
+	}
+	.box-7 img {
+		display:flex;
+		padding: 60px;
+		height: 300px;
+		object-fit: cover;
+		margin-top: 5px;
+		
+	}
+	.box-7 p,h3{
+		text-align: left;
+		margin-left:90px ;
+		
+	}
+	.btn{
+		margin-left: 90px;
+		background-color:aqua;
+	}
+
+	.Footer{
+		background: black;
+		height: 200px;
+		color: white;
+		justify-content: space-evenly;
+		display: flex;
+		
+	flex-wrap: wrap;
+	text-decoration: none;
+	}
+	.Footer .inline-1 {
+		width: 20%;
+		margin-bottom: 20px;
+		
+	}
+	.Footer .inline-2 p{
+		text-align: center;
+		color:white;
+	}
+	.Footer div h3{
+		text-align: center;
+	margin: 10px 0px;
+	}
